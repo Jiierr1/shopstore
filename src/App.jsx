@@ -1,19 +1,13 @@
-import React from "react";
-import Home from "./components/homepage/home";
 import Loginform from "./context/auth/Loginform";
 import SignupForm from "./context/auth/Signupform";
 import Useraccount from "./components/useraccount/Useraccount";
-import Products from "./components/products/Products";
-import Swage from "./components/products/grilproduct/swage";
 import CartPage from "./components/CartPage";
 import CheckoutPage from "./components/products/CheckoutPage";
 import AboutPage from "./components/AboutPage";
 import ServicesPage from "./components/ServicesPage";
 import HomePage from "./components/homepage/HomePage";
-import Footer from "./components/Footer";
 import ContactPage from "./components/ContactPage";
 import SalePage from "./components/SalePage";
-import Navbar from "./components/nav/Navbar";
 import Layout from "./components/Layout/Layout";
 import ForgotPasswordPage from "./context/auth/ForgotPasswordPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -27,21 +21,6 @@ import NewArrivalsPage from "./components/NewArrivalsPage";
 const App = () => {
   return (
     <>
-      {/* <Navuseracc /> */}
-      {/* <HomePage /> */}
-      {/* <Home /> */}
-      {/* <Products />
-      <Swage />
-      <Loginform />
-      <SignupForm />
-      <Useraccount />
-      <CartPage />
-      <CheckoutPage />
-      <AboutPage />
-      <ServicesPage />
-      <ContactPage />
-      <SalePage />
-      <Footer /> */}
       <FavoritesProvider>
         <Routes>
           <Route element={<Layout />}>
