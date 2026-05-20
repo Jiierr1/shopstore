@@ -1,5 +1,5 @@
 import Loginform from "./context/auth/Loginform";
-import Signupform from "./context/auth/SignupForm";
+import SignupForm from "./context/auth/SignupForm";
 import Useraccount from "./components/useraccount/Useraccount";
 import CartPage from "./components/CartPage";
 import CheckoutPage from "./components/products/CheckoutPage";
@@ -53,7 +53,7 @@ const App = () => {
           <Route path="/login" element={<Loginform />} />
           <Route path="/forgotpassword" element={<ForgotPasswordPage />} />
 
-          <Route path="/signup" element={<Signupform />} />
+          <Route path="/signup" element={<SignupForm />} />
         </Routes>
       </FavoritesProvider>
     </>
