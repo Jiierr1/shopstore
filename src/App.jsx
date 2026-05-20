@@ -1,5 +1,5 @@
 import Loginform from "./context/auth/Loginform";
-import Signupform from "./context/auth/Signupform";
+import Signupform from "./context/auth/SignupForm";
 import Useraccount from "./components/useraccount/Useraccount";
 import CartPage from "./components/CartPage";
 import CheckoutPage from "./components/products/CheckoutPage";
